@@ -1,26 +1,33 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 header{
     background: #bbbbbb;
     padding: 20px 0;
 }
-.logo:hover{
-    transform: scale(1.3);
-    transition: 2s;
-}
+
 .caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
-nav ul{
-    list-style: none;
+.logo{
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px #555555;
 }
+.logo:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
 nav{
     position: absolute;
     top: 110px;
     right: 0;
  
 }
+
 nav li{
     margin: 0 0 0 15px;
     display: inline;
@@ -38,11 +45,13 @@ nav a:hover{
     color: #c78c18;
     text-decoration: underline;
 }
+
 .produtos{
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
+
 .produtos li {
     text-align: center;
     display: inline-block;
@@ -51,26 +60,31 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 5px solid #000000;
+    border: 2px solid #000000;
     border-radius: 10px;
 }
+
 .produtos li:hover{
     border-color: #c78c18;
 }
+
 .produtos li:active{
     border-color: green;
 }
+
 .produtos li:hover h2{
     font-size: 34px;
 }
+
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
 }
-.produtos-descricao{
 
+.produtos-descricao{
     font-size: 18px;
 }
+
 .produtos-preco{
     font-size: 22px;
     font-weight: bold;
@@ -81,43 +95,43 @@ footer{
     text-align: center;
     background: url("img-curso-alura/bg.jpg");
     padding: 40px 0;
+    color: wheat;
 }
 
-.footer{
-    color: #bbbbbb;
-    font-size: 13px;
-    margin-top: 20px;
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
 }
+
 .footer:hover{
     color: #c78c18;
-}
-
-main{
-    width: 940px;
-    margin: 0 auto;
 }
 
 form{
     margin: 40px 0;
 }
+
 form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
+
 .input-padrao{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
+
 .checkbox{
     margin: 20px 0;
 }
 
 .enviar{
     width: 40%;
-    padding: 5px 0;
+    padding: 15px 0;
     border:none;
     border-radius: 30px;
     background: orange;
@@ -127,23 +141,149 @@ form label, form legend{
     transition: 1.5s background;
     cursor: pointer;
 }
+
 .enviar:hover{
     background: green;
 }
 
 table{
-  margin: 20px 0 40px;
+    margin: 20px 0 40px;
 }
+
 thead{
     background: #555555;
     color: white;
     font-weight: bold;
 }
+
 td, th{
     border: 1px solid #000000 ;
     padding: 8px 15px;
 }
 
+/*css pagina inicial*/
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin:  0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utencilios{
+    border-radius: 100px;
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;  
+    box-shadow: 10px 10px 10px #555555; 
+}
+.utencilios:hover{
+    transition: 1.5s;
+    transform: scale(1.1);
+}
+
+/*degradê com css  background: linear-gradient(cor01, cor02*/
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;   
+}
+
+.mapa p{
+    text-align: center;
+    margin: 0 0 2em;
+}
+
+.beneficios{
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+/* pseudo classes */
+/* uso dos pseudos elemetos para modifica o primeiro elemento de uma lista */
+/* selecionando um elemento especifico da lista ( itens:nth-child(*))     */
+.itens:first-child {
+    font-weight: bold;
+}
+
+/* aplicação css para colocar elementos em tegs html sem alterar o mesmo */ 
+/* pseudo elementos */
+.itens::before {
+    content: "★";
+}
+
+.imagen-beneficios{
+    width: 60%;
+    opacity: 0.7;
+    transition: 1.5s;
+    box-shadow: 10px 10px 15px #000000;
+}
+
+.imagen-beneficios:hover{
+    opacity: 1;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+    opacity: 0.7;
+    transition: 1.5s;
+}
+.video:hover{
+    opacity: 1;
+}
+
+/*seletores avançados para manipular ponto especificos do html
+img ~ p{
+    background: #c78c18;
+}
+
+.principal p:not(#missao){
+    background: chartreuse;
+}
+*/
 
 
 
