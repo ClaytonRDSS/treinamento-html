@@ -29,14 +29,14 @@ body{
     border-radius: 100px;
     /*box-shadow: 10px 10px 10px #555555;*/
     position: relative;
-    right: 385px;
-    top: -10px;
+    right: 160px;
+    top: 70px;
     font-size: 3em;
 }
 
 nav{
     position: absolute;
-    top: 60px;
+    top: 192px;
     right: 50px;
     font-size: 20px;
     font-weight: bold;
@@ -214,6 +214,7 @@ td, th{
 
 .principal p {
     margin:  0 0 1em;
+    color: wheat;
 }
 
 .principal strong{
@@ -232,7 +233,7 @@ td, th{
     margin: 0 20px 20px 0;  
     box-shadow: 10px 10px 10px #555555; 
     right: 700px;
-    top: 655px;
+    top: 540px;
 }
 .utencilios:hover{
     transition: 1.5s;
@@ -255,7 +256,7 @@ td, th{
     box-sizing: border-box;
     border: 1px solid #000000;
     border-radius: 10px;
-    background: #888888;
+    background: #000000;
     
 }
 .top-center{
