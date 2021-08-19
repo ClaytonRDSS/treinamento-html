@@ -1,20 +1,19 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
-header{
-    background: #bbbbbb;
-    padding: 20px 0;
+.produtos-barber, .contato-barber{
+    background: #555555;
 }
-
-.caixa {
-    position: relative;
+.caixa-home {
+    position: absolute;
     width: 940px;
-    margin: 0 auto;
+    margin: 0 500px;
+    margin-right: 0px;
 }
+
 .logo{
     border-radius: 100px;
-    box-shadow: 10px 10px 10px #555555;
+    /*box-shadow: 10px 10px 10px #555555;*/
 }
 .logo:hover{
     transform: scale(1.1);
@@ -164,8 +163,8 @@ td, th{
 /*css pagina inicial*/
 .banner{
     width: 100%;
+    background-color: rgba(10,23,55,0.5);
 }
-
 .titulo-principal{
     text-align: center;
     font-size: 2em;
