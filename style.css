@@ -29,18 +29,19 @@ body{
     border-radius: 100px;
     /*box-shadow: 10px 10px 10px #555555;*/
     position: relative;
-    right: 160px;
-    top: 70px;
-    font-size: 3em;
+    width: 200px;
+    right: 400px;
+    top: 0px;
 }
 
 nav{
     position: absolute;
-    top: 192px;
-    right: 50px;
+    top: 50px;
+    right: 0px;
     font-size: 20px;
     font-weight: bold;
 }
+
 .nav-produtos{
     position: absolute;
     top: 290px;
@@ -59,22 +60,20 @@ nav{
     margin-top: 33px;
 }
 
-nav li{
+li{
     margin: 0 0 0 15px;
     display: inline;
 }
 
-nav a{
-    color: #000000;
+a{
+    color: white;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
 }
-
-nav a:hover{
-    color: #c78c18;
-    text-decoration: underline;
+a:hover{
+    color: darkkhaki;
 }
 
 .produtos{
@@ -126,7 +125,7 @@ footer{
     text-align: center;
     background: url("img-curso-alura/bg.jpg");
     padding: 40px 0;
-    color: wheat;
+    color: black;
 }
 
 .copyright {
@@ -214,7 +213,8 @@ td, th{
 
 .principal p {
     margin:  0 0 1em;
-    color: wheat;
+    color: black;
+    font-weight: bold;
 }
 
 .principal strong{
@@ -228,13 +228,35 @@ td, th{
 .utencilios{
     position: absolute;
     border-radius: 100px;
-    width: 120px;
+    width: 100px;
     float: left;
     margin: 0 20px 20px 0;  
     box-shadow: 10px 10px 10px #555555; 
     right: 700px;
-    top: 540px;
+    top: 695px;
 }
+.utencilios-corte{
+    position: absolute;
+    border-radius: 100px;
+    width: 100px;
+    float: left;
+    margin: 0 20px 20px 0;  
+    box-shadow: 10px 10px 10px #555555; 
+    right: 1201px;
+    top: 695px;
+}
+
+.utencilios-barbeiro{
+    position: absolute;
+    border-radius: 100px;
+    width: 91px;
+    float: left;
+    margin: 0 20px 20px 0;  
+    box-shadow: 10px 10px 10px #555555; 
+    right: 187px;
+    top: 692px;
+}
+
 .utencilios:hover{
     transition: 1.5s;
     transform: scale(1.1);
@@ -247,21 +269,20 @@ td, th{
 }
 
 .top-direira, .top-center, .top-esquerda{
+    position: relative;
     text-align: center;
     display: inline-block;
     width: 30%;
+    height: 219px;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 10px 18px;
+    padding: 14px 18px;
     box-sizing: border-box;
-    border: 1px solid #000000;
+    border: 3px solid black;
     border-radius: 10px;
-    background: #000000;
+    background: bottom;
+    top: 35px;
     
-}
-.top-center{
-    position: relative;
-    top: 120px;
 }
 
 /*degradê com css  background: linear-gradient(cor01, cor02*/
