@@ -37,7 +37,7 @@ body{
 nav{
     position: absolute;
     top: 50px;
-    right: 0px;
+    right: -359px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -232,8 +232,8 @@ td, th{
     float: left;
     margin: 0 20px 20px 0;  
     box-shadow: 10px 10px 10px #555555; 
-    right: 700px;
-    top: 695px;
+    right: 869px;
+    top: 812px;
 }
 .utencilios-corte{
     position: absolute;
@@ -242,8 +242,8 @@ td, th{
     float: left;
     margin: 0 20px 20px 0;  
     box-shadow: 10px 10px 10px #555555; 
-    right: 1201px;
-    top: 695px;
+    right: 1489px;
+    top: 812px;
 }
 
 .utencilios-barbeiro{
@@ -253,8 +253,8 @@ td, th{
     float: left;
     margin: 0 20px 20px 0;  
     box-shadow: 10px 10px 10px #555555; 
-    right: 187px;
-    top: 692px;
+    right: 257px;
+    top: 812px;
 }
 
 .utencilios:hover{
