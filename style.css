@@ -37,8 +37,8 @@ body{
 nav{
     position: absolute;
     top: 50px;
-    right: -359px;
-    font-size: 20px;
+    right: -402px;
+    font-size: 37px;
     font-weight: bold;
 }
 
@@ -76,10 +76,18 @@ a:hover{
     color: darkkhaki;
 }
 
+.procedimento{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 125PX;
+    font-size: xx-large;
+    
+}
+
 .produtos{
-    width: 940px;
+    width: 1580px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .produtos li {
@@ -125,7 +133,7 @@ footer{
     text-align: center;
     background: url("img-curso-alura/bg.jpg");
     padding: 40px 0;
-    color: black;
+    color:white;
 }
 
 .copyright {
@@ -232,8 +240,8 @@ td, th{
     float: left;
     margin: 0 20px 20px 0;  
     box-shadow: 10px 10px 10px #555555; 
-    right: 869px;
-    top: 812px;
+    right: 870px;
+    top: 814px;
 }
 .utencilios-corte{
     position: absolute;
@@ -242,8 +250,8 @@ td, th{
     float: left;
     margin: 0 20px 20px 0;  
     box-shadow: 10px 10px 10px #555555; 
-    right: 1489px;
-    top: 812px;
+    right: 1485px;
+    top: 814px;
 }
 
 .utencilios-barbeiro{
@@ -253,8 +261,8 @@ td, th{
     float: left;
     margin: 0 20px 20px 0;  
     box-shadow: 10px 10px 10px #555555; 
-    right: 257px;
-    top: 812px;
+    right: 253px;
+    top: 814px;
 }
 
 .utencilios:hover{
@@ -299,6 +307,7 @@ td, th{
 .mapa p{
     text-align: center;
     margin: 0 0 2em;
+    font-size: 24px;
 }
 
 .beneficios{
@@ -350,6 +359,8 @@ td, th{
     margin: 2em auto;
     opacity: 0.7;
     transition: 1.5s;
+    position: relative;
+    left: -400px;
 }
 .video:hover{
     opacity: 1;
